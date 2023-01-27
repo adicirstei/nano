@@ -1,0 +1,7 @@
+services:
+
+  pytorch:
+    build: .
+    volumes:
+      - .:/home/jovyan/work
+    # command: bash
